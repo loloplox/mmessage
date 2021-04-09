@@ -1,0 +1,15 @@
+.chat{
+   width: 1255px;
+   height: 460px;
+   background-color: rgb(3, 32, 1);
+   margin: auto;
+   margin-top: 30px;
+   margin-bottom: 20px;
+   overflow: auto;
+}
+
+.chat-recibido{
+   color: whitesmoke;
+   padding-left: 20px;
+   padding-top: 10px;
+}
