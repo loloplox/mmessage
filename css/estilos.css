@@ -1,7 +1,10 @@
+body{
+   overflow: hidden;
+}
 .chat{
    width: 1255px;
    height: 460px;
-   background-color: rgb(3, 32, 1);
+   background-color: rgb(1, 8, 32);
    margin: auto;
    margin-top: 30px;
    margin-bottom: 20px;
@@ -12,4 +15,27 @@
    color: whitesmoke;
    padding-left: 20px;
    padding-top: 10px;
+}
+
+.formulario{
+   width: 100vw;
+   height: 100vh;
+   position: absolute;
+   z-index: 2;
+   background-color: rgb(24, 24, 24);
+   top: 0;
+}
+.form-formulario{
+   color: whitesmoke;
+   padding: 50px;
+   margin: auto;
+   width: 600px;
+   height: 500px;
+   border: 1px solid white;
+   border-radius: 20px;
+   margin-top: 40px;
+   background-color: rgb(37, 37, 37);
+}
+input[type=text], input[type=button]{
+   margin: 15px 0;
 }

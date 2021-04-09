@@ -3,7 +3,6 @@ const readline      = require("readline").createInterface({
     input: process.stdin,
     output: process.stdout,
 })
-const chat          = document.getElementById("chat")
 
 const END       = "END";
 
